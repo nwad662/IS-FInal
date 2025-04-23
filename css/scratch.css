@@ -1,0 +1,98 @@
+.resume-header {
+  background-image: url('../assets/img/Fishing Cover.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 23rem 0;
+}
+
+.section-title {
+  font-style: italic;
+  margin-top: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bold-title {
+  font-weight: bold;
+}
+
+.header {
+  font-weight: 700;
+  text-align: center;
+  font-size: 100px;
+  padding-top:0cap;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+.videohead {
+  color: white;
+  font-family: sans-serif;
+}
+
+.centered-list {
+  text-align: center;
+}
+
+.centered-list ul,
+.centered-list ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  height: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #007BFF;
+}
+
+body {
+  background: linear-gradient(to bottom, #add8e6, #00008b); /* Light blue to dark blue */
+  margin: 0;
+  padding: 0;
+}
+
+.video {
+ text-align: center;
+}
+
+.video iframe {
+  display: inline-block;
+}
+
+.tableau-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.footer{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
